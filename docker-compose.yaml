@@ -16,7 +16,7 @@ services:
     - mongodb:/data/db
   catalogue:
     image: lankaravi/catalogue:v1
-    container_name: catalogue
+    container_name: catalogued s
     depends_on:
     - mongodb
   redis:
