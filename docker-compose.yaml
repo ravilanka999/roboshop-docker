@@ -3,11 +3,11 @@ networks:
     driver: bridge
     name: roboshop
     external: true #I created network already using docker network create roboshop
-volumes:
-  mongodb:
-  redis:
-  mysql:
-  rabbitmq: # docker volume create rabbitmq
+# volumes:
+#   mongodb:
+#   redis:
+#   mysql:
+#   rabbitmq: # docker volume create rabbitmq
 services:
   mongodb:
     image: lankaravi/mongodb:v1
